@@ -1,0 +1,15 @@
+---
+application:
+  name: "myfunction-github-io"
+  project: "pokfarm"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "pokfarm"
+  version: "4.4"
+routers:
+- name: "main-myfunction-github-io"
+  routes:
+  - application_name: "myfunction-github-io"
+    paths:
+    - "/*"
